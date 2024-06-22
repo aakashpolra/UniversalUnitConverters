@@ -2,6 +2,28 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/aakashpolra/UniversalUnitConverters</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright © 2024 Aakash Polra</Copyright>
+    <PackageProjectUrl>https://github.com/aakashpolra/UniversalUnitConverters</PackageProjectUrl>
+    <PackageTags>unitconversion; unit conversion; units conversion; unit converters; converters; .NET; dotnet; utilities; temperature; distance; convert; extensions; extension methods; MIT;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>UniversalUnitConverters is a widely compatible .NET library for unit conversions, inspired by .NET MAUI's UnitConverters class.</Description>
+    <Authors>Aakash Polra</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
