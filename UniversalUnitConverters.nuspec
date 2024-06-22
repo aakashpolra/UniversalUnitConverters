@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UniversalUnitConverters</id>
+    <version>1.0.0</version>
+    <authors>Aakash Polra</authors>
+    <owners>Aakash Polra</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/aakashpolra/UniversalUnitConverters</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A widely compatible .NET library for unit conversions, inspired by .NET MAUI's UnitConverters class. Includes conversions for distance, temperature, and more.</description>
+    <releaseNotes>Initial release with support for various unit conversions.</releaseNotes>
+    <copyright>Copyright © 2024 Aakash Polra</copyright>
+    <tags>unit conversion .NET</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="NETStandard.Library" version="2.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\UniversalUnitConverters\bin\Release\netstandard2.0\UniversalUnitConverters.dll" target="lib\netstandard2.0\UniversalUnitConverters.dll" />
+  </files>
+</package>
