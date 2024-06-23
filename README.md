@@ -1,5 +1,10 @@
 # UniversalUnitConverters
 
+[![NuGet Version](https://img.shields.io/nuget/v/UniversalUnitConverters.svg)](https://www.nuget.org/packages/UniversalUnitConverters/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
 UniversalUnitConverters is a widely compatible .NET library for unit conversions, inspired by .NET MAUI's UnitConverters class.
 This library includes conversions for distance, temperature, weight, speed, and more.
 
@@ -15,18 +20,18 @@ This library includes conversions for distance, temperature, weight, speed, and 
 
 ## Installation
 
-To install UniversalUnitConverters, run the following command in the Package Manager Console:
+The package is available on [NuGet](https://www.nuget.org/packages/UniversalUnitConverters).
+
+To install, run the following command in the Package Manager Console:
 
 ```powershell
 Install-Package UniversalUnitConverters
 ```
-Or add the following line to your .csproj file:
-```xml
-<PackageReference Include="UniversalUnitConverters" Version="1.0.0" />
-```
 
 ## Usage
+
 Here's how to use the library:
+
 ```csharp
 using UniversalUnitConverters;
 
@@ -36,7 +41,8 @@ decimal radians = UnitConverters.DegreesToRadians(38.3m);
 // etc...
 ```
 
-And you can use friendly numeric extensions too:
+You can also take advantage of the extension methods:
+
 ```csharp
 using UniversalUnitConverters.Extensions;
 
@@ -48,7 +54,9 @@ decimal feet = 100.MetersToInternationalFeet();
 ```
 
 ## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
+
 This project is licensed under the MIT License.
