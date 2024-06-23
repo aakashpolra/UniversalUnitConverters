@@ -11,18 +11,25 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>UniversalUnitConverters is a widely compatible .NET library for unit conversions, inspired by .NET MAUI's UnitConverters class.</Description>
     <Authors>Aakash Polra</Authors>
+	<PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../README.md">
       <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
+      <PackagePath>/</PackagePath>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="../../LICENSE">
       <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
+      <PackagePath>/</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../assets/icon.png">
+      <Pack>True</Pack>
+      <PackagePath>/</PackagePath>
     </None>
   </ItemGroup>
 
